@@ -1,0 +1,162 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner-container {
+    width: 1528px;
+    margin: 0 auto;
+   
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+
+/* typography  */
+
+h1,
+h2,
+h3,
+h4,
+.service-plans p{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 1.625rem;
+    margin-left:6.25rem;
+}
+
+h2{
+    font-size: 3.75rem;
+    
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.125rem;
+}
+
+.service-plans p {
+    font-size: 1.5rem;
+    color: #0C4A6E;
+    margin-top: 3rem;
+    margin-bottom: 1.75rem;
+}
+
+/* header and footer*/
+header,
+footer{
+    background-color: #0C4A6E;
+    color: #FAFAFA;
+}
+
+header{
+    padding: 1.625rem 89.0625rem 1.625rem 0;
+}
+
+footer{
+    padding: 1.625rem 40.8125rem 1.625rem 6.1875rem;
+}
+
+.team section,
+.service-plans section{
+      /* colour taken from an eye drop tool because the figma file had a grey and then a low opacity black on top and i dunno how to do that */
+    background-color: #c3c3c4; 
+}
+
+/* team member cards */
+
+.team{
+    width:calc((100% / 2) - (2rem / 2));
+    margin-left:6.25rem;
+}
+
+.team-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team section{
+    margin-bottom: 3.25rem;
+    margin-right: 1.75rem;
+    padding: 2.5rem 0 2.5rem 1.75rem;
+    width: calc((100% / 2) - (3.5rem));
+    
+}
+
+.text{
+    width: 27.25rem;
+    margin-left: 3.5rem;
+
+}
+
+
+/* service plan cards */
+
+ 
+.service-plans .inner-container{
+    
+    margin-left: 6.1875rem;
+    margin-bottom: 6rem;
+    
+  
+}
+
+.service-plans h2{
+    margin-bottom: 1.5rem;
+}
+
+.service-plans h3{
+    margin-bottom: 3rem;
+}
+
+.inner-container .features{
+    margin-left: -6.1875rem;
+}
+
+
+.service-plans section{
+    width: calc((100% / 3) - (2.375rem));
+}
+
+
+.service-plans h3,
+.service-plans p{
+   text-align: center;
+}
+.service-plans section ul {
+   
+    margin: 0 auto;
+    width:calc((100% / 3));  
+}
+
+
+.service-plans p{
+    margin-top: 3rem;
+}
+
+.service-plans li{
+    list-style: disc;
+    width: 17.9375rem;
+}
+
+h4{
+    
+    text-align: center;
+    
+}
+
+
+
+
+
+
